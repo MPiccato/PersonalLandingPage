@@ -236,7 +236,7 @@ section {
     }
 
     .menu-icon {
-        display: block;
+        display: none;
     }
 
     .hero-text {
@@ -273,8 +273,9 @@ section {
         margin: 7px 0;
     }
 
-    #menu-toggle:checked+label.menu-icon-action+ul {
+    .navlist.open {
         right: 0;
-
     }
+
+
 }
